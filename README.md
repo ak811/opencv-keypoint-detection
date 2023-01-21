@@ -5,7 +5,7 @@
 <br>
 
 ## Overview
-Ira is a free and open-source real-time keypoint detection library based on [OpenCV](https://github.com/opencv/opencv) written in Python. It allows the development of keypoint detection applications for face, eyes, edge estimation, and more!
+This project aims to utilize the OpenCV library and a cascade classifier to detect and track keypoints such as the corners of the eyes and the edges of the face in images or videos. The cascade classifier is trained on a dataset of faces and eyes and then used to identify the keypoints. The library also includes functionality for detecting edges in images, which can aid in tasks like image segmentation and object recognition. The utilization of OpenCV provides a range of tools for image and video processing, including a cascade classifier, which ensures the library to detect keypoints and edges in real-time with high accuracy and reliability. Additionally, the OpenCV provides various image processing capabilities such as filtering, thresholding, and feature extraction that were utilized in this project.
 
 <br>
 
@@ -37,7 +37,7 @@ Ira is a free and open-source real-time keypoint detection library based on [Ope
 <br>
 
 ## Real-Time Object Detection
-#### Use the following function to open your device's webcam and detect the key points specified in your Python class.
+#### Use the following function to open your device's webcam and detect the keypoints specified in your Python class.
  ~~~python
 def live_detection_by_camera():
     cap = cv2.VideoCapture(0)
