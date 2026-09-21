@@ -1,6 +1,4 @@
-# Ira
-
-### Real-time keypoint detection library for face, eyes, and edge estimation
+# Real-time keypoint detection library for face, eyes, and edge estimation
 
 <br>
 
