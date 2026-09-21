@@ -1,4 +1,4 @@
-# Real-time keypoint detection library for face, eyes, and edge estimation
+# Real-time Haar-cascade face/eye detection with median-adaptive Canny edge extraction
 
 <br>
 
@@ -10,7 +10,7 @@ This project aims to utilize the OpenCV library and a cascade classifier to dete
 ## Getting Started
 #### 1. Fork Ira and clone the repository:
   ```
-  * git clone git://github.com/ak811/ira.git
+  * git clone git://github.com/ak811/opencv-keypoint-detection.git
   ```
 #### 2. Import the project via any Python IDEs:
   * Install [OpenCV](https://github.com/opencv/opencv):
